@@ -36,5 +36,10 @@ namespace MVCShell.Controllers
 		{
 			return View();
 		}
+
+        public IActionResult WinShell()
+        {
+            return View();
+        }
     }
 }
