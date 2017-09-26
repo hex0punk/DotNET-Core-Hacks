@@ -3,9 +3,8 @@ Testing webshells and the like with MVC and Dot NET Core
 
 ## Razor Webshell
 ### Using the webshell
-The webshell itself is `/Views/Home/Shell.cshtml`. You can play with it as well by selecting `Sh3ll` on the top menu of the home page.
+The webshell itself is `MVCShell/Views/Home/Shell.cshtml` (for Linux and Mac) and `MVCShell/Views/Home/WinShell.cshtml` (for Windows). You can play with it as well by selecting `NixSh3ll` or `WinSh3ll` on the top menu of the home page. You only need those files for scenarios where you may need a .NET Core or MVC webshell. This will only work with web solutions that run views that are rendered on the server using Razor syntax (files with a `.cshtml` extention).    
 
-For non injecting into Windows servers, you want to use `/Views/Home/WinShell.cshtml` instead. You can play with it as well by selecting `WinSh3ll` on the top menu of the home page.
 
 ### LFI Sample
 The home page allows you to test LFI with the webshell. I will be adding demos for RFI as well soon.
